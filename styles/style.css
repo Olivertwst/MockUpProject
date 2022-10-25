@@ -59,3 +59,77 @@ background-color: white;
   color: #0065FC;
   font-size: 0.75rem;
 }
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .activ {
+    padding-bottom: 5%;
+    width: 98%;
+    padding-right: 10px;
+    padding-left: 10px;
+   }
+
+.activ-card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activ-card {
+    border-radius: 15px;
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 20%;
+    box-shadow: 10px 5px 5px #f2f2f2;
+}
+
+.activ-card a{
+    color: black;
+    text-decoration: none;
+    font-size: .75rem;
+}
+
+.activ h3 {
+    margin-left: 3%;
+}
+
+.activ-card img{
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.large img {
+    height: 300px;
+}
+
+.line img {
+    height: 210px;
+}
+
+.island img{
+    height: 90px;
+}
+
+.notre img{
+    height: 120px;
+}
+
+.longchamp img{
+    height: 180px;
+}
+
+.second, .fourth {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second .activ-card, .fourth .activ-card{
+    width: 100%;
+    justify-content: space-between;
+}
+
+}

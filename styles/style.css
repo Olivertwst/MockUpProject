@@ -25,6 +25,10 @@ border-color: white;
 display: flex;
 }
 
+.solid {
+  display:flex;
+}
+
 .filters {
 display: flex;
   flex-wrap: wrap;
@@ -56,8 +60,8 @@ background-color: white;
   padding-top: 2px;
   vertical-align: middle;
   margin-left: -6px;
-  color: #0065FC;
-  font-size: 0.75rem;
+  color: #0065fc;
+  font-size: 1.5rem;
 }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
@@ -101,7 +105,7 @@ background-color: white;
 }
 
 .large img {
-    height: 300px;
+    height: 768px;
 }
 
 .line img {

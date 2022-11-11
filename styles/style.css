@@ -76,6 +76,12 @@ background-color: white;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.activ-card {
+  display: flex-end;
+  flex-direction: row-reverse;
+  align-content: space-between;
+}
+
 
 .activ-card {
     border-radius: 15px;
@@ -108,19 +114,34 @@ background-color: white;
 }
 
 .line img {
-    height: 210px;
+    height: 768px;
 }
 
 .island img{
-   height: 200px; 
+   height: 768px; 
 }
 
 .notre img{
-    height: 120px;
+    height: 768px;
 }
 
 .longchamp img{
-    height: 180px;
+    height: 768px;
+}
+
+.auberge img{
+  height: 992px;
+}
+
+.port img{
+height: 210px;
+}
+.les img{
+  height: 992px;
+}
+
+.hotel{
+height: 992px;
 }
 
 .second, .fourth {

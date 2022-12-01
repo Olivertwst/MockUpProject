@@ -17,12 +17,12 @@
 }
 
 .search-bar {
-  height: 48px;
-  border-color: white;
+height: 48px;
+border-color: white;
 }
 
 .search {
-  display: flex;
+display: flex;
 }
 
 .solid {
@@ -30,14 +30,14 @@
 }
 
 .filters {
-  display: flex;
+display: flex;
   flex-wrap: wrap;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .btn-wrapper {
-  display: inline-flex;
+display: inline-flex;
   flex-wrap: wrap;
   width: 50%;
   justify-content: space-around;
@@ -45,7 +45,7 @@
 }
 
 .filter {
-  background-color: white;
+background-color: white;
   border-radius: 30px;
   border-color: lightgray;
   font-size: 1rem;
@@ -53,20 +53,20 @@
 
 .icon {
     background-color: #DEEBFF;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 2px;
-    vertical-align: middle;
-    margin-left: -6px;
-    color: #0065fc;
-    font-size: 1.5rem;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  vertical-align: middle;
+  margin-left: -6px;
+  color: #0065fc;
+  font-size: 1.5rem;
 }
 
   .activ {
     padding-bottom: 5%;
-    width: 85%;
+    width: 98%;
     padding-right: 10px;
     padding-left: 10px;
    }
@@ -76,6 +76,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.activ-card {
+  display: flex-end;
+  flex-direction: row-reverse;
+  align-content: space-between;
+}
+
 
 .activ-card {
     border-radius: 15px;
@@ -84,6 +90,9 @@
     border-bottom-left-radius: 15px;
     width: 20%;
     box-shadow: 10px 5px 5px #f2f2f2;
+}
+
+.activ-card a{
     color: black;
     text-decoration: none;
     font-size: .75rem;
@@ -154,10 +163,10 @@
 
 .pop-card {
   display: flex;
-  border-radius: 15px;
-  padding: 5px;
-  background-color: white;
-  margin: 3%;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    margin: 3%;
 }
 
 .pop-card p, .pop-card h3, .ratings{
@@ -169,43 +178,21 @@
 .pop-card img{
   object-fit: cover;
   height: 85px;
-  width: 85%;
+  width: 65px;
   border-top-left-radius: 7%;
   border-bottom-left-radius: 7%;
   padding-right: 30px;
-  max-width: 85%;
+  max-width: 100%;
 }
 
-.large img {
-  height: 300px;
-}
-
-.fort img {
-  height: 210px;
-}
-
-.island img {
-  height: 100px;
-}
-
-.notre img {
-  height: 120px;
-}
-
-.longchamp img {
-  height: 180px;
-}
-
-.second,
-.fourth {
+.second, .fourth {
     width: 22%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.second .activ-card, 
-.fourth .activ-card{
+.second .activ-card, .fourth .activ-card{
     width: 100%;
     justify-content: space-between;
 }

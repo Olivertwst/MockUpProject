@@ -133,6 +133,8 @@ html {
   background-color: white;
   width: 27%;
   margin: 2%;
+  color: black;
+  text-decoration: none;
 }
 .accommadations-card img {
   object-fit: cover;
@@ -230,4 +232,8 @@ html {
     width: 100%;
     align-content: baseline;
     justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  /* to do */
 }

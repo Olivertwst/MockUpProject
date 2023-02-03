@@ -1,4 +1,4 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,8 +8,9 @@
   <title>Booki</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/d593006093.js" crossorigin="anonymous"></script>
 </head>
 
@@ -27,7 +28,7 @@
       <p> Downtown or in Nature</p>
     </div>
   </header>
-  <form>
+  <form action="index.html" method="get">
     <div class="search">
       <i class="landmark fas fa-map-marker-alt"></i>
       <input class="search-bar" type="text" placeholder="Type Here" name="search">
@@ -66,7 +67,7 @@
     <section class="accomm">
       <h2>Accommadations In Marseille</h2>
       <div class="accommadations-card-wrap">
-        <section class="accommadations-card">
+        <a href="#" class="accommadations-card">
           <img src="/images/Auberge-La-Cannebiere.jpg" alt="Auberge-la-Cannebiere" width="350">
           <div>
             <h3>Auberge la Cannebiere</h3>
@@ -76,10 +77,9 @@
               <i class="blue icon fas fa-star" aria-hidden="true"></i>
               <i class="blue icon fas fa-star" aria-hidden="true"></i>
               <i class="blue icon fas fa-star" aria-hidden="true"></i>
-              <i class="blue icon fas fa-star" aria-hidden="true"></i>
-            </div>
+              <i class="blue icon fas fa-star" aria-hidden="true"></i> 
           </div>
-        </section>
+        </a>
         <section class="accommadations-card">
           <img src="/images/Hotel-du-port.jpg" alt="Hotel-du-port" width="350">
           <div>
@@ -151,8 +151,8 @@
           </div>
         </section>
       </div> <!-- accommadations-card-wrap End-->
+      <h3>Show More</h3>
     </section>
-    <h3>Show More</h3>
     <section class="popular">
       <h2>Most Popular</h2>
       <i class="chart icon fas fa-chart-line" aria-hidden="true">

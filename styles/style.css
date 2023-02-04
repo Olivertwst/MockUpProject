@@ -166,7 +166,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .pop-card {
@@ -236,6 +236,10 @@ html {
     justify-content: space-between;
     list-style: none;  
     flex-direction: row; 
+    background-color: white;
+    border-radius: 30px;
+    border-color: lightgrey;
+    padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {

@@ -39,6 +39,12 @@ html {
   display: flex;
 }
 
+.button {
+  color: white;
+  background-color: #0065fc;
+  border-color: blue;4
+}
+
 .solid {
   display:flex;
 }
@@ -53,7 +59,7 @@ html {
 .btn-wrapper {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 35%;
   justify-content: space-around;
   white-space: nowrap;
 }
@@ -67,8 +73,8 @@ html {
 
 .icon {
     background-color: #DEEBFF;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 23px;
     border-radius: 50%;
     text-align: center;
     padding-top: 2px;
@@ -164,9 +170,9 @@ html {
 
 .popular-card-wrap {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .pop-card {
@@ -232,14 +238,25 @@ html {
 /*---------footer---------*/
 .footer{
     width: 100%;
-    align-content: baseline;
-    justify-content: space-between;
     list-style: none;  
-    flex-direction: row; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end; 
     background-color: white;
     border-radius: 30px;
     border-color: lightgrey;
     padding-bottom: 5px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.our-accommadations{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 @media (max-width: 768px) {

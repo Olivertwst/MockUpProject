@@ -42,11 +42,11 @@ html {
 .button {
   color: white;
   background-color: #0065fc;
-  border-color: blue;4
+  border-color: blue;
 }
 
 .solid {
-  display:flex;
+  display: flex;
 }
 
 .filters {
@@ -59,7 +59,7 @@ html {
 .btn-wrapper {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 35%;
+  width: 40%;
   justify-content: space-around;
   white-space: nowrap;
 }
@@ -67,29 +67,33 @@ html {
 .filter {
   background-color: white;
   border-radius: 30px;
-  border-color: lightgray;
+  border-color: lightgrey;
   font-size: 1rem;
 }
 
 .icon {
-    background-color: #DEEBFF;
-    height: 20px;
-    width: 23px;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 2px;
-    vertical-align: middle;
-    margin-left: -6px;
-    color: #0065fc;
-    font-size: 1.5rem;
+  background-color: #DEEBFF;
+  height: 20px;
+  width: 23px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  vertical-align: middle;
+  margin-left: -6px;
+  color: #0065fc;
+  font-size: 1.5rem;
 }
 
-  .activ {
-    padding-bottom: 5%;
-    width: 85%;
-    padding-right: 10px;
-    padding-left: 10px;
-   }
+main {
+  display: flex;
+}
+
+.activ {
+  padding-bottom: 5%;
+  width: 85%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .activ-card-wrap {
   display: flex;
@@ -98,26 +102,26 @@ html {
 }
 
 .activ-card {
-    border-radius: 15px;
-    background-color: white;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 20%;
-    box-shadow: 10px 5px 5px #f2f2f2;
-    color: black;
-    text-decoration: none;
-    font-size: .75rem;
+  border-radius: 15px;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 20%;
+  box-shadow: 10px 5px 5px #f2f2f2;
+  color: black;
+  text-decoration: none;
+  font-size: .75rem;
 }
 
 .activ h3 {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 
-.activ-card img{
-    object-fit: cover;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.activ-card img {
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .section-wrapper {
@@ -131,6 +135,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: lightgrey;
 }
 
 .accommadations-card {
@@ -142,6 +147,7 @@ html {
   color: black;
   text-decoration: none;
 }
+
 .accommadations-card img {
   object-fit: cover;
   height: 85px;
@@ -155,7 +161,9 @@ html {
   text-decoration: none;
 }
 
-.accommadations-card p, .accommadations-card h3, .ratings {
+.accommadations-card p,
+.accommadations-card h3,
+.ratings {
   margin: -.5px 0;
   margin-left: 3px;
   font-size: .75rem;
@@ -185,13 +193,15 @@ html {
   text-decoration: none;
 }
 
-.pop-card p, .pop-card h3, .ratings{
+.pop-card p,
+.pop-card h3,
+.ratings {
   /* margin: -.5px 0; */
   margin-left: -1px;
   font-size: 0.75rem;
 }
 
-.pop-card img{
+.pop-card img {
   object-fit: cover;
   height: 85px;
   width: 85%;
@@ -223,42 +233,108 @@ html {
 
 .second,
 .fourth {
-    width: 22%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.second .activ-card, 
-.fourth .activ-card{
-    width: 100%;
-    justify-content: space-between;
+.second .activ-card,
+.fourth .activ-card {
+  width: 100%;
+  justify-content: space-between;
 }
 
 /*---------footer---------*/
-.footer{
-    width: 100%;
-    list-style: none;  
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end; 
-    background-color: white;
-    border-radius: 30px;
-    border-color: lightgrey;
-    padding-bottom: 5px;
-}
-.about{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+
+body {
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
 }
 
-.our-accommadations{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.container {
+  max-width: 768px;
+  background-color: lightgrey;
+  margin: auto;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: lightgrey;
+  padding: 70px 0;
+
+}
+
+.footer-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  width: 25%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 300;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: lightgrey;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 11px;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: black;
+  padding-left: 10px;
+}
+
+/* to do */
 @media (max-width: 768px) {
-  /* to do */
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
 }

@@ -17,22 +17,20 @@
 <body>
   <div class="container">
     <header>
+      <img src="images/Booki.png" alt="Logo">
       <nav class="nav">
-        <img src="images/Booki.png" alt="Logo">
-        <div class="navlink">
-          <a href="Accommadations">Accommadations</a>
-          <a href="Activities">Activities</a>
-        </div>
+        <a href="Accommadations">Accommadations</a>
+        <a href="Activities">Activities</a>
       </nav>
-      <div>
-        <h1>Find a place for your dream vacation</h1>
-        <p> Downtown or in Nature</p>
-      </div>
     </header>
-    <form action="index.html" method="get">
+    <div class="tagline">
+      <h1>Find a place for your dream vacation</h1>
+      <p> Downtown or in Nature</p>
+    </div>
+    <form action="search-form" action="index.html" method="get">
       <div class="search">
         <i class="landmark fas fa-map-marker-alt"></i>
-        <input class="search-bar" type="text" placeholder="Type Here" name="search">
+        <input class="search-bar" type="text" placeholder="Type Here" name="search" value="Marseille, France">
         <button class="button" type="submit">Search</button>
       </div>
     </form>
@@ -154,8 +152,11 @@
         <h3><a href="#">Show More</a></h3>
       </section>
       <section class="popular">
-        <h2>Most Popular</h2>
-        <i class="icon fas fa-star"></i>
+        <div>
+          <h2>Most Popular</h2>
+          <i class="chart icon fas fa-chart-line" aria-hidden="true">
+          </i>
+        </div>
         <div class="popular-card-wrap"></div>
         <a href="#" class="pop-card">
           <img src="/images/morning-sun-hotel.jpg" alt="Morning-Sun-Hotel" width="350">
@@ -254,7 +255,7 @@
       <h4>About</h4>
       <ul list-style="none">
         <li><a href="#">Site Map</a></li>
-        <li><a href="#">General Terms And Conditions</a></li>
+        <li><a href="#">General Terms and Conditions</a></li>
         <li><a href="#">Data and Privacy</a></li>
       </ul>
     </div>

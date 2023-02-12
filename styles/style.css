@@ -12,11 +12,49 @@ html {
   box-sizing: inherit;
 }
 
-.nav {
+header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
 }
+
+.search-form {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+nav {
+  height: 2vh;
+  width: 1vw;
+  min-width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 25px 15px 0 15px;
+  margin: 0 10px 0 10px;
+}
+
+nav a:hover{
+  border-top: 2px solid blue;
+  padding-top: 23px;
+  color: blue;
+}
+
+.tagline{
+  font-size: 12px;
+  padding: 0 25px 15px 25px;
+}
+
+
 
 .landmark {
   background-color: lightgrey;
@@ -33,10 +71,15 @@ html {
 .search-bar {
   height: 48px;
   border-color: white;
+  height: 35px;
+  border: 1px solid #cccccc;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .search {
   display: flex;
+  height: 35px;
 }
 
 .blue {
@@ -47,6 +90,9 @@ html {
   color: white;
   background-color: #0065fc;
   border-color: blue;
+  border-radius: 0 15px 15px 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .solid {
@@ -59,7 +105,8 @@ html {
   margin-bottom: 15px;
   font-size: 20px;
   gap: 25px;
-
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .btn-wrapper {
@@ -108,18 +155,23 @@ html {
   color: #0065fc;
   font-size: 18px;
 }
+.info{
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 main {
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
+  justify-content: space-between;
+  gap: 25px;
 }
 
 .activ {
   padding-bottom: 5%;
-  /* width: 85%; */
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
   justify-content: space-between;
 }
 
@@ -165,6 +217,16 @@ main {
   margin: 20px;
 }
 
+.accom h2{
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.accom a{
+  text-decoration: none;
+  color:black;
+}
+
 .accommadations-card-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -208,8 +270,23 @@ main {
   border-radius: 15px;
   padding: 10px;
   width: 35%;
-  margin: 20px;
+  /* margin: 20px; */
 }
+ .popular div{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .popular div i{
+  background-color: #f2f2f2;
+  padding-top: 25px;
+  color: black;
+ }
+
+ .popular h2{
+  padding-left:15px;
+  padding-top:15px;
+ }
 
 .popular-card-wrap {
   display: flex;
@@ -299,10 +376,10 @@ body {
   text-decoration: none;
 }
 
- .container {
+.container {
   margin-top: 2%;
   margin-left: 10%;
-  margin-right: 10%; 
+  margin-right: 10%;
 }
 
 /* .row {
@@ -324,6 +401,14 @@ ul {
 .footer-list {
   width: 250px;
 }
+
+.footer-list ul{
+  list-style-type: none;
+}
+ .footer-list a{
+  text-decoration: none;
+  color: black;
+ }
 
 .footer {
   background-color: lightgrey;
@@ -384,6 +469,4 @@ ul {
 } */
 
 /* to do */
-@media (max-width: 768px) {
-
-}
+@media (max-width: 768px) {}

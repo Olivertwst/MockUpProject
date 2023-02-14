@@ -27,7 +27,7 @@
       <h1>Find a place for your dream vacation</h1>
       <p> Downtown or in Nature</p>
     </div>
-    <form action="search-form" action="index.html" method="get">
+    <form class="search-form" action="index.html" method="get">
       <div class="search">
         <i class="landmark fas fa-map-marker-alt"></i>
         <input class="search-bar" type="text" placeholder="Type Here" name="search" value="Marseille, France">
@@ -41,20 +41,20 @@
       <div class="btn-wrapper">
         <button class="filter" type="button">
           <i class="icon fa-solid fa-money-bill-wave" aria-hidden="true"></i>
-          <p>Low cost</p>
+          <span>Low Cost</span>
         </button>
         <button class="filter" type="button">
-          <i class="icon fa-solid fa-child-reaching" aria-hidden="true"></i>
-
-          <p>Family-friendly</p>
+          <i class="icon fa-solid fa-child-reaching" aria-hidden="true">
+          </i>
+          <span>Family-friendly</span>
         </button>
         <button class="filter" type="button">
           <i class="icon fas fa-heart" aria-hidden="true"></i>
-          <p>Romantic</p>
+        <span>Romantic</span>
         </button>
         <button class="filter">
           <i class="icon fas fa-dog" aria-hidden="true"></i>
-          <p>Pets Allowed</p>
+          <span>Pets Allowed</span>
         </button>
       </div>
     </div>
@@ -70,7 +70,7 @@
             <img src="/images/auberge-la-cannebiere.jpg" alt="Auberge-la-Cannebiere" width="350">
             <h3>Auberge la Cannebiere</h3>
             <p>Night Starting At <b>25<i class="fa-solid fa-euro-sign"></i></b></p>
-            <div class="rating">
+            <div class="ratings">
               <i class="blue  fas fa-star" aria-hidden="true"></i>
               <i class="blue  fas fa-star" aria-hidden="true"></i>
               <i class="blue  fas fa-star" aria-hidden="true"></i>
@@ -83,7 +83,7 @@
             <div>
               <h3>Hotel du port</h3>
               <p>Night starting at <b>52<i class="fa-solid fa-euro-sign"></i></b></p>
-              <div class=" ratings">
+              <div class="ratings">
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
@@ -102,7 +102,7 @@
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
-                <i class="gray  fas fa-star" aria-hidden="true"></i>
+                <i class="grey  fas fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </a>
@@ -115,8 +115,8 @@
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
-                <i class="grey  fas fa-star-o" aria-hidden="true"></i>
-                <i class="grey  fas fa-star-o" aria-hidden="true"></i>
+                <i class="grey  fas fa-star" aria-hidden="true"></i>
+                <i class="grey  fas fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </a>
@@ -130,7 +130,7 @@
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
                 <i class="blue  fas fa-star" aria-hidden="true"></i>
-                <i class="grey  fas fa-star-o" aria-hidden="true"></i>
+                <i class="grey  fas fa-star" aria-hidden="true"></i>
               </div>
             </div>
           </a>
@@ -157,50 +157,51 @@
           <i class="chart icon fas fa-chart-line" aria-hidden="true">
           </i>
         </div>
-        <div class="popular-card-wrap"></div>
-        <a href="#" class="pop-card">
-          <img src="/images/morning-sun-hotel.jpg" alt="Morning-Sun-Hotel" width="350">
-          <div>
-            <h3>Morning Sun Hotel</h3>
-            <p>Nights starting at <b>128<i class="fa-solid fa-euro-sign"></i></b></p>
-            <div class="ratings">
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
+        <div class="popular-card-wrap">
+          <a href="#" class="pop-card">
+            <img src="/images/morning-sun-hotel.jpg" alt="Morning-Sun-Hotel" width="350">
+            <div class="pop-card-caption">
+              <h3>Morning Sun Hotel</h3>
+              <p>Nights starting at <b>128<i class="fa-solid fa-euro-sign"></i></b></p>
+              <div class="ratings">
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="#" class="pop-card">
-          <img src="/images/au-coeur-de-l'eau-bed-and-breakfast.jpg" alt="Au-coeur-de-l'eau-Bed-and-breakfast"
-            width="350">
-          <div>
-            <h3>Au coeur de l'eau Bed and Breakfast</h3>
-            <p>Nights starting at <b>71<i class="fa-solid fa-euro-sign"></i></b></p>
-            <div class="ratings">
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="fas fa-star-o" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="pop-card">
+            <img src="/images/au-coeur-de-l'eau-bed-and-breakfast.jpg" alt="Au-coeur-de-l'eau-Bed-and-breakfast"
+              width="350">
+            <div class="pop-card-caption">
+              <h3>Au coeur de l'eau Bed and Breakfast</h3>
+              <p>Nights starting at <b>71<i class="fa-solid fa-euro-sign"></i></b></p>
+              <div class="ratings">
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="grey  fas fa-star" aria-hidden="true"></i>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="#" class="pop-card">
-          <img src="/images/tout-bleu-et-blanc-hotel.jpg" alt="tout-bleu-et-Blanc-Hotel" width="350">
-          <div>
-            <h3>Tout bleu et Blanc Hotel</h3>
-            <p>Night starting at <b>68<i class="fa-solid fa-euro-sign"></i></b></p>
-            <div class="ratiings">
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="blue  fas fa-star" aria-hidden="true"></i>
-              <i class="fas fa-star-o" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="pop-card">
+            <img src="/images/tout-bleu-et-blanc-hotel.jpg" alt="tout-bleu-et-Blanc-Hotel" width="350">
+            <div class="pop-card-caption">
+              <h3>Tout bleu et Blanc Hotel</h3>
+              <p>Night starting at <b>68<i class="fa-solid fa-euro-sign"></i></b></p>
+              <div class="ratings">
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="blue  fas fa-star" aria-hidden="true"></i>
+                <i class="grey  fas fa-star" aria-hidden="true"></i>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </section>
     </main> <!--Popular-card-wrap End-->
     <section class="activ">
@@ -253,7 +254,7 @@
   <footer class="footer">
     <div class="footer-list">
       <h4>About</h4>
-      <ul list-style="none">
+      <ul>
         <li><a href="#">Site Map</a></li>
         <li><a href="#">General Terms and Conditions</a></li>
         <li><a href="#">Data and Privacy</a></li>
@@ -261,14 +262,14 @@
     </div>
     <div class="footer-list">
       <h4>Our Accommadations</h4>
-      <ul list-style="none">
+      <ul>
         <li><a href="#">Quality Assessment</a></li>
         <li><a href="#">You Have A Hotel?</a></li>
       </ul>
     </div>
     <div class="footer-list">
       <h4>Assistance</h4>
-      <ul list-style="none">
+      <ul>
         <li><a href="#">Help Desk</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>

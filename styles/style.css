@@ -174,7 +174,7 @@ main {
 .activ-card-wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 35px;
 }
 
 .activ-card {
@@ -191,7 +191,6 @@ main {
 
 .activ h3 {
   margin-top: 10%;
-  margin-left: 3%;
   height: 40px;
 }
 
@@ -211,15 +210,16 @@ main {
 
 .accomm {
   background-color: #f2f2f2;
-  border-radius: 15px;
-  margin: 20px;
-  padding-left: 25px;
+  border-radius: 5px;
+  margin: 25px;
+  padding-left: 45px;
   padding-right: 25px;
+  padding-top: 25px;
 }
 
 .accom h2 {
-  padding-top: 25px;
-  padding-left: 25px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .accom a {
@@ -231,13 +231,12 @@ main {
   display: flex;
   flex-wrap: wrap;
   background-color: #f2f2f2;
-  gap: 25px;
-  
+  gap: 45px;
 }
 
 .accommadations-card {
-  border-radius: 15px;
-  padding: 5px;
+  border-radius: 3px;
+  padding: 2px;
   background-color: white;
   height: 160px;
   width: 180px;
@@ -266,9 +265,9 @@ main {
 .accommadations-card p,
 .accommadations-card h3,
 .ratings {
-  margin: -.5px 0;
-  margin-left: 3px;
-  font-size: .75rem;
+  margin: 3px 3;
+  margin-left: 1px;
+  font-size: .65rem;
 }
 
 .popular {
@@ -307,20 +306,20 @@ main {
 .pop-card {
   display: flex;
   border-radius: 10px;
-  padding: 5px;
+  padding: 4px;
   background-color: white;
-  margin: 5%;
+  margin: 4%;
   color: black;
   text-decoration: none;
-  width: 220px;
-  height: 100px;
+  width: 250px;
+  height: 110px;
 }
 
 .pop-card p,
 .pop-card h3,
 .ratings {
   /* margin: -.5px 0; */
-  margin-left: -1px;
+  margin-left: 15px;
   font-size: 0.75rem;v
 }
 
@@ -357,7 +356,7 @@ main {
   width: 22%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .second .activ-card,
@@ -365,7 +364,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /*---------footer---------*/
@@ -388,8 +387,10 @@ body {
 }
 
 .container {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /* .row {

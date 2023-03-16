@@ -265,7 +265,7 @@ main {
 .accommadations-card p,
 .accommadations-card h3,
 .ratings {
-  margin: 3px 3;
+  margin: 3px 0;
   margin-left: 1px;
   font-size: .65rem;
 }
@@ -287,7 +287,6 @@ main {
 .popular h2 {
   padding-left: 10px;
   padding-top: 10px;
-  jus
 }
 
 .popular-card-wrap {
@@ -320,7 +319,7 @@ main {
 .ratings {
   /* margin: -.5px 0; */
   margin-left: 15px;
-  font-size: 0.75rem;v
+  font-size: 0.75rem;
 }
 
 .pop-card img {

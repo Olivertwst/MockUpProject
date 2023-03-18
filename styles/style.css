@@ -174,7 +174,8 @@ main {
 .activ-card-wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  justify-content: space-between;
+  gap: 25px;
 }
 
 .activ-card {
@@ -410,6 +411,7 @@ ul {
 
 .footer-list {
   width: 250px;
+  margin-right: 10%;
 }
 
 .footer-list ul {
@@ -423,7 +425,7 @@ ul {
 
 .footer {
   background-color: #f2f2f2;
-  padding: 70px 0;
+  padding: 60px 0;
   display: flex;
   justify-content: space-around;
 
@@ -477,9 +479,9 @@ ul {
 .footer-col ul li a:hover {
   color: black;
   padding-left: 10px;
-} */
+} 
+*/
 
- 
 @media (max-width: 768px) {
   main {
     flex-direction: column-reverse;

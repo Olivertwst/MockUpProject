@@ -1,4 +1,3 @@
-/*
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,6 +10,9 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+}
+.logo{
+  width: 100px;
 }
 
 header {
@@ -42,7 +44,7 @@ nav a {
 
 nav a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 23px;
+  padding-top: 33px;
   color: #0065fc;
 }
 
@@ -118,6 +120,7 @@ nav a:hover {
 .filter {
   background-color: white;
   border-radius: 30px;
+  height: 43px;
   border-color: lightgrey;
   border-style: solid;
   font-size: 1rem;
@@ -164,8 +167,7 @@ main {
 }
 
 .activ {
-  margin: 3%;
-  padding-bottom: 5px;
+  padding-bottom: 45px;
   padding-right: 25px;
   padding-left: 25px;
 }
@@ -174,7 +176,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 25px;
+  gap: 20px;
 }
 
 .activ-card {
@@ -182,7 +184,7 @@ main {
   background-color: white;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  width: 250px;
+  width: 300px;
   box-shadow: 10px 5px 5px #f2f2f2;
   color: black;
   text-decoration: none;
@@ -190,7 +192,7 @@ main {
 }
 
 .activ h3 {
-  margin-top: 10%;
+  margin-top: 15px;
   height: 40px;
 }
 
@@ -305,6 +307,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 15px;
 }
 
 .pop-card {
@@ -322,10 +325,7 @@ main {
 .pop-card p,
 .pop-card h3,
 .ratings {
-  /* margin: -.5px 0; */
-  /*
-  {
-  margin-left: 15px;
+  margin: -.5px 0;
   font-size: 0.75rem;
 }
 
@@ -374,7 +374,7 @@ main {
 }
 
 /*---------footer---------*/
-/*
+
 @import url('link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
@@ -395,17 +395,22 @@ body {
 
 .container {
   margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  margin-right: 5px;
+}
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* .row {
+.row {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-} 
+}
 
 .li {
   color: black;
@@ -437,10 +442,8 @@ ul {
   justify-content: space-around;
 
 }
-/*
 
-/*  */
-/* .footer-col {
+.footer-col {
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -487,17 +490,18 @@ ul {
 .footer-col ul li a:hover {
   color: black;
   padding-left: 10px;
-} 
-*/
+}
+
 
 body {
   background-color: none;
 }
 
-@media  (min-width: 320px)and(max-width: 768px){
-  body{
+@media (max-width: 768px) {
+  body {
     background-color: none;
   }
+
   main {
     flex-direction: column-reverse;
   }

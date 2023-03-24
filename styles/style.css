@@ -1,3 +1,4 @@
+/*
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -322,6 +323,8 @@ main {
 .pop-card h3,
 .ratings {
   /* margin: -.5px 0; */
+  /*
+  {
   margin-left: 15px;
   font-size: 0.75rem;
 }
@@ -371,6 +374,7 @@ main {
 }
 
 /*---------footer---------*/
+/*
 @import url('link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
@@ -401,7 +405,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}  */
+} 
 
 .li {
   color: black;
@@ -433,6 +437,7 @@ ul {
   justify-content: space-around;
 
 }
+/*
 
 /*  */
 /* .footer-col {
@@ -485,7 +490,14 @@ ul {
 } 
 */
 
-@media (max-width: 768px) {
+body {
+  background-color: none;
+}
+
+@media  (min-width: 320px)and(max-width: 768px){
+  body{
+    background-color: none;
+  }
   main {
     flex-direction: column-reverse;
   }

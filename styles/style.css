@@ -11,7 +11,8 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
-.logo{
+
+.logo {
   width: 100px;
 }
 
@@ -220,12 +221,12 @@ main {
   padding-bottom: 20px;
 }
 
-.accom h2 {
+.accomm h2 {
   padding-top: 35px;
   padding-left: 35px;
 }
 
-.accom a {
+.accomm a {
   text-decoration: none;
   color: black;
 }
@@ -399,7 +400,8 @@ body {
   margin-left: 25px;
   margin-right: 5px;
 }
-.flex-container{
+
+.flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -498,11 +500,34 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
+  .body {
     background-color: none;
   }
 
-  main {
+  .main {
     flex-direction: column-reverse;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    /* logo is bigger */
+  }
+
+  .logo_img {
+    width: 120px;
+  }
+  .accomm{
+    
+  }
+
+  .menu {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .footer {
+    flex-direction: row;
   }
 }

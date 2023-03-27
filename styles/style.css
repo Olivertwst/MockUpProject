@@ -142,6 +142,10 @@ nav a:hover {
   padding-top: 10px;
 }
 
+.filter:hover {
+  box-shadow: 10px 5px 5px #f2f2f2;
+}
+
 .icon {
   background-color: #DEEBFF;
   height: 45px;
@@ -495,69 +499,72 @@ ul {
   padding-left: 10px;
 }
 
-/* Tablet */
+/*
 @media (max-width: 992px) {
-  /* TODO add anything to make the tablet fit a bit better on the screen */
+
 }
-/* mobile */
+
 @media (max-width: 768px) {
-
-
   body {
     background-color: none;
   }
-  
+
   .container {
     margin-left: 0;
     margin-right: 0;
-    }
   }
-  /* FIXME the logo needs to be on the top of the nav links for mobile*/
-  /* FIXME the nav links need to have a different boarder and hover effect for mobile */
-  .logo {
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    /* logo is bigger */
-  }
+}
 
-  .logo_img {
-    width: 120px;
-  }
-   .filters{
-    flex-direction: column;
-   }
+.logo {
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  
+}
 
-   .accomm {
-    margin-left: 0;
-    margin-right: 0;
-    background-color: transparent;
-    width: 100%;
-  }
+.logo_img {
+  width: 120px;
+}
 
-  .accommadations-card-wrap{
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .accommadations-card {
-    width: 300px;
-  }
+.filters {
+  flex-direction: column;
+}
 
-  .popular{
-    width:auto;
-  }
-  .pop-card{
-    width: 300px;
-  }
-  .active-card-wrap{
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
+.accomm {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: transparent;
+  width: 100%;
+}
+
+.accommadations-card-wrap {
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accommadations-card {
+  width: 300px;
+}
+
+.popular {
+  width: auto;
+}
+
+.pop-card {
+  width: 300px;
+}
+
+.active-card-wrap {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+/*--*/

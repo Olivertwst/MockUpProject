@@ -19,7 +19,6 @@
     <header>
       <img src="images/Booki.png" alt="Logo" class="logo">
       <nav class="nav">
-        <!--FIXME add local links to page here per func/tech specs -->
         <a href="#Accommodations">Accommodations</a>
         <a href="#Activities">Activities</a>
       </nav>
@@ -32,7 +31,8 @@
       <div class="search">
         <i class="landmark fas fa-map-marker-alt"></i>
         <input class="search-bar" type="text" placeholder="Type Here" name="search" value="Marseille, France">
-        <button class="button" type="submit">Search</button>
+        <button class="button" type="submit"><span class="button-text">Search</span><span class="button-icon"><i
+              class="fa-solid fa-magnifying-glass"></i></span></button>
       </div>
     </form>
     <div class="filters">
@@ -40,7 +40,7 @@
         <h2>Filters</h2>
       </div>
       <div class="btn-wrapper">
-        <button class="filter" type="button">
+        <button class="filter filter--small" type="button">
           <i class="icon fa-solid fa-money-bill-wave" aria-hidden="true"></i>
           <span>Low Cost</span>
         </button>
@@ -49,7 +49,7 @@
           </i>
           <span>Family-friendly</span>
         </button>
-        <button class="filter" type="button">
+        <button class="filter filter--small" type="button">
           <i class="icon fas fa-heart" aria-hidden="true"></i>
           <span>Romantic</span>
         </button>
@@ -60,13 +60,11 @@
       </div>
     </div>
     <div class="info">
-      <!-- TODO information icon should be blue, and there should be a light grey circle around it -->
-      <!-- NOTE: do not use FONT Awesome classes as selectors in your css file  -->
-      <i class="fa-solid fa-info"><aria-hidden="true"></i>
+      <i class="fa-solid fa-info info-icon"><aria-hidden="true"></i>
       <span>More than 500 Accommadations are available in this city</span>
     </div>
     <main class="section wrapper">
-      <section class="accomm">
+      <section id="Accommodations" class="accomm">
         <h2>Accommadations In Marseille</h2>
         <div class="accommadations-card-wrap">
           <a href="#" class="accommadations-card">
@@ -207,7 +205,7 @@
         </div>
       </section>
     </main> <!--Popular-card-wrap End-->
-    <section class="activ">
+    <section id="Activities" class="activ">
       <h3><b>Activities in Marseille</b></h3>
       <div class="activ-card-wrap">
         <a href="#" class="activ-card large">

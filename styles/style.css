@@ -95,6 +95,15 @@ nav a:hover {
   padding-right: 10px;
 }
 
+.button-text,
+.button-icon i {
+  color: white;
+}
+
+.button-icon {
+  display: none;
+}
+
 .solid {
   display: flex;
 }
@@ -163,6 +172,13 @@ nav a:hover {
 .info {
   padding-left: 20px;
   padding-right: 20px;
+}
+.info-icon{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+  text-align: center;
 }
 
 main {
@@ -507,11 +523,25 @@ ul {
     background-color: none;
   }
 
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .container {
     margin-left: 0;
     margin-right: 0;
   }
 
+  .button-text {
+    display: none;
+  }
+
+  .button-icon {
+    display: block;
+  }
 
   .logo {
     flex-direction: column;
@@ -526,6 +556,28 @@ ul {
 
   .filters {
     flex-direction: column;
+  }
+
+  .filter--small {
+    order: -1;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  nav {
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  nav a {
+    margin-bottom: -2px;
+  }
+
+  nav a:hover {
+    border-top: 0;
+    border-bottom: 2px solid #0065fc;
   }
 
   .accomm {
@@ -548,19 +600,32 @@ ul {
   }
 
   .popular {
-    width: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .pop-card {
     width: 300px;
   }
 
-  .pop-card-wrap {
+  .popular-card-wrap {
     flex-direction: column-reverse;
     align-items: center;
   }
 
-  .active-card-wrap {
+  .activ {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* TODO finish adding rest of activ img selectors*/
+  .large img,
+  .fort img {
+    height: 120px;
+  }
+
+  .activ-card-wrap {
     flex-direction: column;
     align-items: center;
   }

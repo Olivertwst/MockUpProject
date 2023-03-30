@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  border-top: 2px solid #0065fc;
+  border-top: 3px solid #0065fc;
   padding-top: 33px;
   color: #0065fc;
 }
@@ -576,18 +576,20 @@ ul {
   nav {
     width: 100%;
     border-bottom: 2px solid #f2f2f2;
+    margin: -3px;
   }
 
   nav a {
     margin-bottom: -2px;
     padding-bottom: 7px;
-    padding-left: 25px;
+    padding-left: 35px;
     padding-right: 35px;
   }
 
   nav a:hover {
     border-top: 0;
-    border-bottom: 2px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
+    padding-bottom: -3px;
   }
 
   .accomm {
